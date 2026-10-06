@@ -1,0 +1,5 @@
+services:
+  saludo:
+    build: .
+    image: saludo-robot:dev
+    container_name: saludo-dev

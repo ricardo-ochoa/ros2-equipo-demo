@@ -1,0 +1,6 @@
+services:
+  saludo:
+    image: ghcr.io/ricardo-ochoa/ros2-equipo-demo:${TAG:?Define TAG en el archivo .env}
+    container_name: saludo-robot
+    restart: unless-stopped
+    network_mode: host
